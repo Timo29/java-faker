@@ -108,6 +108,7 @@ public class Faker {
     private final EnglandFootBall englandfootball;
     private final Mountain mountain;
     private final BossaNova bossaNova;
+    private final SimpleNetworkServerComps simpleNetworkServerComps;
 
     public Faker() {
         this(Locale.ENGLISH);
@@ -225,6 +226,7 @@ public class Faker {
         this.sip = new Sip(this);
         this.englandfootball = new EnglandFootBall(this);
         this.mountain = new Mountain(this);
+        this.simpleNetworkServerComps = new SimpleNetworkServerComps(this);
     }
 
     /**
@@ -696,6 +698,10 @@ public class Faker {
     public EnglandFootBall englandfootball() { return englandfootball; }
 
     public Mountain mountain() { return mountain; }
+
+    public SimpleNetworkServerComps simpleNetworkServerComps(){
+        return simpleNetworkServerComps;
+    }
 
     public String resolve(String key) {
         return this.fakeValuesService.resolve(key, this, this);

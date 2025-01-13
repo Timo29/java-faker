@@ -146,6 +146,7 @@ public class EnFile {
             "seinfeld.yml",
             "shakespeare.yml",
             "silicon_valley.yml",
+            "simple_network_server_components.yml",
             "simpsons.yml",
             "singular_siegler.yml",
             "sip.yml",

@@ -1,0 +1,44 @@
+en:
+  faker:
+    network_and_server_components:
+      components:
+        - "Server"
+        - "Router"
+        - "Switch"
+        - "Firewall"
+        - "Access Point"
+        - "Storage Server"
+        - "Network Adapter"
+        - "Load Balancer"
+        - "UPS"
+      manufacturers:
+        - "Dell"
+        - "Synology"
+        - "Cisco"
+        - "TP-Link"
+        - "Netgear"
+        - "Ubiquiti"
+        - "HP"
+        - "Arista"
+        - "QNAP"
+      models:
+        - "PowerEdge R740"
+        - "Ubiquiti EdgeRouter"
+        - "Arista 7050X"
+        - "Cisco ASA 5500"
+        - "Synology DS920+"
+        - "TP-Link Archer AX6000"
+        - "Netgear Orbi Pro"
+        - "QNAP TS-453D"
+        - "Dell PowerConnect 5480"
+      software:
+        - "Dell OpenManage"
+        - "Cisco DNA Center"
+        - "HP iLO"
+        - "QNAP QTS"
+        - "Ubiquiti UniFi Controller"
+      ups_models:
+        - "APC Back-UPS"
+        - "CyberPower CP1500"
+        - "Tripp Lite SMART1500"
+        - "Eaton 5S"

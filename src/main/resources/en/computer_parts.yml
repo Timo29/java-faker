@@ -1,0 +1,51 @@
+en:
+  faker:
+    computer_parts:
+      processors:
+        manufacturers: [ "Intel", "AMD", "Qualcomm", "Apple", "NVIDIA", "IBM" ]
+        models: [ "Intel Core i9", "AMD Ryzen 9", "Apple M1", "Qualcomm Snapdragon", "Intel Xeon", "AMD Threadripper" ]
+      motherboards:
+        manufacturers: [ "ASUS", "Gigabyte", "MSI", "ASRock", "Biostar", "EVGA" ]
+        models: [ "ASUS ROG Strix", "Gigabyte AORUS", "MSI MAG", "ASRock Taichi", "EVGA Z490" ]
+      graphics_cards:
+        manufacturers: [ "NVIDIA", "AMD", "Intel", "EVGA", "Gigabyte", "MSI" ]
+        models: [ "NVIDIA GeForce RTX 3080", "AMD Radeon RX 6800 XT", "Intel Iris Xe", "NVIDIA Quadro P5000", "EVGA GeForce GTX 1660" ]
+      storage:
+        types:
+          - SSD
+          - HDD
+          - NVMe
+        manufacturers: [ "Samsung", "Western Digital", "Seagate", "Crucial", "Kingston", "SanDisk" ]
+        models: [ "Samsung 970 EVO", "WD Black SN850", "Seagate Barracuda", "Crucial MX500", "Kingston A2000" ]
+      memory:
+        types:
+          - DDR4
+          - DDR5
+          - LPDDR4
+        manufacturers: [ "Corsair", "G.SKILL", "Kingston", "HyperX", "ADATA" ]
+        models: [ "Corsair Vengeance LPX", "G.SKILL Trident Z", "Kingston HyperX Fury", "ADATA XPG", "Corsair Dominator Platinum" ]
+      power_supplies:
+        manufacturers: [ "Corsair", "EVGA", "Seasonic", "Thermaltake", "Cooler Master" ]
+        models: [ "Corsair RM750x", "EVGA SuperNOVA 650 G5", "Seasonic Focus Plus 750W", "Thermaltake Toughpower", "Cooler Master MWE Gold" ]
+      cooling_systems:
+        types:
+          - Air cooling
+          - Liquid cooling
+        manufacturers: [ "NZXT", "Corsair", "Cooler Master", "Noctua", "be quiet!" ]
+        models: [ "NZXT Kraken X73", "Corsair iCUE H150i", "Cooler Master Hyper 212", "Noctua NH-D15", "be quiet! Dark Rock Pro 4" ]
+      cases:
+        manufacturers: [ "Fractal Design", "NZXT", "Corsair", "Cooler Master", "Phanteks" ]
+        models: [ "Fractal Design Meshify C", "NZXT H510", "Corsair iCUE 4000X", "Cooler Master MasterBox", "Phanteks Eclipse P400A" ]
+      monitors:
+        manufacturers: [ "Samsung", "LG", "Dell", "ASUS", "BenQ", "Acer" ]
+        models: [ "Samsung Odyssey G7", "LG UltraGear", "Dell UltraSharp", "ASUS ROG Swift", "BenQ Zowie XL2546", "Acer Predator X34" ]
+      peripherals:
+        keyboards:
+          manufacturers: [ "Corsair", "Logitech", "Razer", "SteelSeries", "HyperX" ]
+          models: [ "Corsair K95 RGB", "Logitech G Pro X", "Razer Huntsman Elite", "SteelSeries Apex Pro", "HyperX Alloy FPS Pro" ]
+        mice:
+          manufacturers: [ "Logitech", "Razer", "SteelSeries", "Corsair", "Zowie" ]
+          models: [ "Logitech G502", "Razer DeathAdder V2", "SteelSeries Rival 600", "Corsair Dark Core RGB", "Zowie EC2" ]
+        headsets:
+          manufacturers: [ "SteelSeries", "Razer", "Corsair", "Logitech", "Sennheiser" ]
+          models: [ "SteelSeries Arctis 7", "Razer Kraken V3", "Corsair HS70 Pro", "Logitech G Pro X", "Sennheiser Game One" ]

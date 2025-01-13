@@ -1,0 +1,49 @@
+en:
+  faker:
+    network_and_server_components:
+      routers:
+        manufacturers: [ "Cisco", "Netgear", "TP-Link", "Asus", "D-Link", "Ubiquiti" ]
+        models: [ "Cisco Catalyst 9200", "Netgear Nighthawk R7000", "TP-Link Archer AX6000", "Asus RT-AC88U", "D-Link DIR-882", "Ubiquiti EdgeRouter X" ]
+      switches:
+        manufacturers: [ "Cisco", "Juniper", "Arista", "NETGEAR", "TP-Link", "HPE" ]
+        models: [ "Cisco Catalyst 2960X", "Juniper EX Series", "Arista 7280R", "NETGEAR GS108", "TP-Link TL-SG108", "HPE Aruba 2530" ]
+      firewalls:
+        manufacturers: [ "Palo Alto Networks", "Fortinet", "SonicWall", "Check Point", "Cisco", "WatchGuard" ]
+        models: [ "Palo Alto Networks PA-220", "Fortinet FortiGate 60F", "SonicWall TZ400", "Check Point 6400", "Cisco ASA 5506-X", "WatchGuard Firebox T35" ]
+      network_cables:
+        types:
+          - Ethernet
+          - Fiber optic
+          - Coaxial
+        manufacturers: [ "Mediabridge", "Moksha", "MTP", "Cable Matters", "Belkin" ]
+        models: [ "Mediabridge Ethernet Cable", "Moksha Fiber Optic Cable", "MTP LC/SC Fiber Patch Cable", "Cable Matters Snagless", "Belkin CAT6 Ethernet Cable" ]
+      access_points:
+        manufacturers: [ "Ubiquiti", "TP-Link", "Cisco", "Aruba", "Netgear", "Ruckus" ]
+        models: [ "Ubiquiti UniFi AP", "TP-Link EAP245", "Cisco Aironet 2800", "Aruba Instant IAP-305", "Netgear Orbi Pro", "Ruckus R510" ]
+      network_adapters:
+        manufacturers: [ "Intel", "Realtek", "TP-Link", "ASUS", "Broadcom" ]
+        models: [ "Intel Ethernet I210-T1", "Realtek RTL8111H", "TP-Link Archer T9E", "ASUS PCE-AC88", "Broadcom NetXtreme" ]
+      servers:
+        manufacturers: [ "Dell", "HP", "Lenovo", "Supermicro", "Cisco", "IBM" ]
+        models: [ "Dell PowerEdge R740", "HP ProLiant DL380", "Lenovo ThinkSystem SR650", "Supermicro X11", "Cisco UCS C240 M5", "IBM Power Systems S924" ]
+      storage_servers:
+        manufacturers: [ "Synology", "QNAP", "Netgear", "Buffalo", "Western Digital" ]
+        models: [ "Synology DiskStation DS920+", "QNAP TS-453D", "Netgear ReadyNAS RN424", "Buffalo TeraStation 3410DN", "WD My Cloud EX2 Ultra" ]
+      network_storage:
+        types:
+          - NAS
+          - SAN
+        manufacturers: [ "Synology", "QNAP", "Seagate", "Western Digital", "Buffalo" ]
+        models: [ "Synology DS920+", "QNAP TS-453D", "Seagate IronWolf NAS", "Western Digital My Cloud EX2", "Buffalo TeraStation 3400" ]
+      switches_management_software:
+        manufacturers: [ "Cisco", "Juniper", "HPE", "Arista", "Ubiquiti" ]
+        models: [ "Cisco DNA Center", "Juniper Junos Space", "HPE Intelligent Management Center", "Arista CloudVision", "Ubiquiti UniFi Controller" ]
+      server_management_software:
+        manufacturers: [ "Dell", "HP", "Lenovo", "IBM", "Microsoft" ]
+        models: [ "Dell OpenManage", "HP Integrated Lights-Out (iLO)", "Lenovo XClarity", "IBM Director", "Microsoft System Center" ]
+      load_balancers:
+        manufacturers: [ "F5 Networks", "Citrix", "A10 Networks", "Barracuda", "Radware" ]
+        models: [ "F5 BIG-IP", "Citrix NetScaler", "A10 Thunder", "Barracuda Load Balancer", "Radware Alteon" ]
+      UPS (Uninterruptible Power Supply):
+        manufacturers: [ "APC", "CyberPower", "Eaton", "Tripp Lite", "Schneider Electric" ]
+        models: [ "APC Back-UPS Pro", "CyberPower CP1500AVRLCD", "Eaton 5S", "Tripp Lite SMART1500LCDT", "Schneider Electric Smart-UPS" ]

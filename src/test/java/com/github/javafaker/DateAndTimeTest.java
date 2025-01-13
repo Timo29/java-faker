@@ -4,10 +4,12 @@
 package com.github.javafaker;
 
 import org.junit.Test;
+
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.concurrent.TimeUnit;
+
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 

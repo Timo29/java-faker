@@ -1,9 +1,9 @@
 package com.github.javafaker;
 
+import org.apache.commons.lang3.ArrayUtils;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
-import org.apache.commons.lang3.ArrayUtils;
 
 public class Relationships {
     private final Faker faker;

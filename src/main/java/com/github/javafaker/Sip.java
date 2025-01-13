@@ -1,8 +1,8 @@
 package com.github.javafaker;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
-
 import java.util.ArrayList;
+
+import static java.nio.charset.StandardCharsets.UTF_8;
 
 /**
  * Faker class for generating Session Initiation Protocol (SIP) related data.

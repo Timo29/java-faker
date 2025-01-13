@@ -1,6 +1,7 @@
 package com.github.javafaker;
 
 import org.apache.commons.lang3.ArrayUtils;
+
 import static org.apache.commons.lang3.math.NumberUtils.toInt;
 
 /**

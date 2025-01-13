@@ -109,6 +109,7 @@ public class Faker {
     private final Mountain mountain;
     private final BossaNova bossaNova;
     private final SimpleNetworkServerComps simpleNetworkServerComps;
+    private final Subscription subscription;
 
     public Faker() {
         this(Locale.ENGLISH);
@@ -227,6 +228,7 @@ public class Faker {
         this.englandfootball = new EnglandFootBall(this);
         this.mountain = new Mountain(this);
         this.simpleNetworkServerComps = new SimpleNetworkServerComps(this);
+        this.subscription = new Subscription(this);
     }
 
     /**
@@ -701,6 +703,10 @@ public class Faker {
 
     public SimpleNetworkServerComps simpleNetworkServerComps(){
         return simpleNetworkServerComps;
+    }
+
+    public Subscription subscription(){
+        return subscription;
     }
 
     public String resolve(String key) {

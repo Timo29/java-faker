@@ -1,11 +1,9 @@
 package com.github.javafaker;
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
-import static org.junit.Assert.assertThat;
-
 import static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
+import static org.junit.Assert.assertThat;
 public class BossaNovaTest extends AbstractFakerTest {
 
     @Test

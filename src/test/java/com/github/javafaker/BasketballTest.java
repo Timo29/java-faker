@@ -1,8 +1,7 @@
 package com.github.javafaker;
 
-import com.github.javafaker.AbstractFakerTest;
-import com.github.javafaker.Faker;
 import org.junit.Test;
+
 import static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;

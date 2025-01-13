@@ -107,6 +107,7 @@ public class Faker {
     private final Sip sip;
     private final EnglandFootBall englandfootball;
     private final Mountain mountain;
+    private final BossaNova bossaNova;
 
     public Faker() {
         this(Locale.ENGLISH);
@@ -132,6 +133,7 @@ public class Faker {
         this.randomService = random;
         this.fakeValuesService = fakeValuesService;
 
+        this.bossaNova = new BossaNova(this);
         this.ancient = new Ancient(this);
         this.app = new App(this);
         this.artist = new Artist(this);
@@ -401,6 +403,10 @@ public class Faker {
 
     public Book book() {
         return book;
+    }
+
+    public BossaNova bossaNova(){
+        return bossaNova;
     }
 
     public Buffy buffy() {

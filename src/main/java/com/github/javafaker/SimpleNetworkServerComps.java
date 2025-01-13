@@ -24,6 +24,6 @@ public class SimpleNetworkServerComps {
     }
 
     public String ups_models(){
-        return faker.fakeValuesService().resolve("simple_network_server_components.usp_models", this, faker);
+        return faker.fakeValuesService().resolve("simple_network_server_components.ups_models", this, faker);
     }
 }

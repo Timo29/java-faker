@@ -1,6 +1,6 @@
 en:
   faker:
-    network_and_server_components:
+    simple_network_server_components:
       components:
         - "Server"
         - "Router"
